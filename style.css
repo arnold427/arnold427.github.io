@@ -45,13 +45,19 @@ h3 {
   font-weight: bold;
 }
 
-table, th, td {
+.table, th, td {
   border: 3px solid white;
   text-align: center;
   color: white;
 }
 
-iframe {
+#border { 
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image: url(images/border.png) 30 round;
+}
+
+.iframe {
   margin:auto;
   display:block;
 }
