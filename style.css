@@ -1,0 +1,100 @@
+
+body {
+  padding-top: 70px;
+  background-color: #292929;
+}
+
+.full {
+  padding: 12rem 0;
+}
+
+.navbar-brand .uil {
+  font-size: 40px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffa4ca;
+  overflow: hidden;
+}
+
+p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 24px 0;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+}
+
+iframe {
+  margin:auto;
+  display:block;
+}
+
+.timeline {
+  padding: 25px 0;
+  position: relative;
+}
+.timeline:last-child:before {
+  height: 0;
+}
+.timeline:before {
+  background: #ffa4ca;
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  content: "";
+}
+
+.timeline-circle {
+  background: #ffa4ca;
+  border-radius: 100%;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  position: absolute;
+}
+.timeline-circle span {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  line-height: 80px;
+}
+
+.timeline-word {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10em;
+}
