@@ -8,10 +8,6 @@ body {
   padding: 12rem 0;
 }
 
-.navbar-brand .uil {
-  font-size: 40px;
-}
-
 .navbar {
   position: fixed;
   top: 0;
